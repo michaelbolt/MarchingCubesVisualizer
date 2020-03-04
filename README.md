@@ -8,12 +8,13 @@ My own version of the Marching Cubes Algorithm is implemented here. A single pol
 
 ## Running the application
 
-Run `python3 MarchingCubes.py` to run the application. There are a few commandline options you can modify to control how it runs:
-- `-w` or `--worldSize`<int, must be even> will set the length of each side of the cube that represents the world-space; defulats to `10`.
-- `-r` or `--viewRadius` <int, greater than 0> will set the radius of the camera arm that pans around the center of the world-space; defaults to `20`.
-- `-d` or `--debug` <bool> will enable a console printout of the time each task in the application's main loop takes for debugging purposes; defaults to `False`.
-- `-x` or `--screenWidth` <int, greater than 0> will set the screen width in pixels; defaults to 800.
-- `-y` or `--screenHeight` <int, greater than 0> will set the screen height in pixels; defaults to 600.
+Run `python3 MarchingCubes.py` to run the application. There are a few command line options you can modify to control how it runs:
+- `-h` print a help message listing the possible command line options
+- `-w` or `--worldSize` `<int, must be even>` will set the length of each side of the cube that represents the world-space; defulats to `10`.
+- `-r` or `--viewRadius` `<int, greater than 0>` will set the radius of the camera arm that pans around the center of the world-space; defaults to `20`.
+- `-d` or `--debug` `<bool>` will enable a console printout of the time each task in the application's main loop takes for debugging purposes; defaults to `False`.
+- `-x` or `--screenWidth` `<int, greater than 0>` will set the screen width in pixels; defaults to 800.
+- `-y` or `--screenHeight` `<int, greater than 0>` will set the screen height in pixels; defaults to 600.
 
 ## View Modes
 There are three view modes the user can toggle between:
